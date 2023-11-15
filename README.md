@@ -1,5 +1,5 @@
 # AphasiaModel
-Dual Stream Model of language processing. COnceptual Broca's and Wernicke's aphasia model within the dual stream framework.
+Dual Stream Model of language processing. Conceptual Broca's and Wernicke's aphasia model within the dual stream framework.
 
 ![dual stream diagram](https://github.com/BabaJaguska/AphasiaModel/assets/10914239/7ce24305-ff2b-4e1b-8fd9-4d23b20f065d)
 
