@@ -1,7 +1,5 @@
 # AphasiaModel
 Dual Stream Model of language processing. Conceptual Broca's and Wernicke's aphasia model within the dual stream framework.
-<<<<<<< HEAD
-=======
 
 ![dual stream diagram](https://github.com/BabaJaguska/AphasiaModel/assets/10914239/7ce24305-ff2b-4e1b-8fd9-4d23b20f065d)
 
@@ -17,4 +15,3 @@ In this repo:
 Comprehension is scrambled (ventral stream) by perturbing the embeddings of a T5 model
 Speech production (dorsal stream) is represented by adding fillers to disrupt utterance and excluding stop words to imitate telegraphic speech.
 Phonetics are captured using Metaphone's phonetic representation.
->>>>>>> main
