@@ -1,7 +1,7 @@
 # Define variables
 LINTER = flake8
 TEST_DIR = ./tests  
-PROFILE_SCRIPT = ./tests/performance.py
+PROFILE_SCRIPT = ./test/performance.py
 
 # Default target
 all: install format lint test profile
@@ -24,7 +24,7 @@ test:
 
 # Run profiling
 profile:
-	python $(PROFILE_SCRIPT)
+	PYTHONPATH=./ python $(PROFILE_SCRIPT)
 
 # Help command to display available commands (optional)
 help:
