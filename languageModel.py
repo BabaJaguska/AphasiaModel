@@ -64,7 +64,7 @@ class LanguageProcessingModel:
         i = 0
         while i < len(content_tokens):
             words_per_utterance = random.randint(1, 3)
-            utterance = content_tokens[i: i + words_per_utterance]
+            utterance = content_tokens[i:i + words_per_utterance]
             brocas_utterances.append(utterance)
             i += words_per_utterance
         brocas_aphasia_tokens = []
