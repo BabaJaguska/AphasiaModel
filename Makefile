@@ -16,7 +16,7 @@ format:
 
 # Lint code
 lint:
-	$(LINTER) --max-line-length=88 .
+	$(LINTER) --max-line-length=88 --ignore = E203,E501 .
 
 # Run tests
 test:
