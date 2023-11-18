@@ -16,7 +16,7 @@ format:
 
 # Lint code
 lint:
-	$(LINTER) .
+	$(LINTER) max-line-length=88 .
 
 # Run tests
 test:
