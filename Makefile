@@ -1,14 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 15 21:11:44 2023
-
-@author: mbelic
-"""
-# Makefile for Python project
-
 # Define variables
 LINTER = flake8
-TEST_DIR = ./tests  # Update this with the actual path to your tests
+TEST_DIR = ./tests  
 PROFILE_SCRIPT = ./test/profile.py
 
 # Default target
