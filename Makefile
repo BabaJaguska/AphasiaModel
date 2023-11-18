@@ -1,5 +1,6 @@
 # Define variables
 LINTER = flake8
+TEST_DIR = ./tests
 PROFILE_SCRIPT = ./tests/performance.py
 
 # Default target
