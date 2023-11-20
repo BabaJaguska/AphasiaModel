@@ -20,7 +20,11 @@ lint:
 
 # Run tests
 test:
-	python -m unittest discover -s $(TEST_DIR)
+	coverage run -m unittest discover -s $(TEST_DIR)
+
+# Check the test coverage
+cover:
+	coverage report -m
 
 # Run profiling
 profile:
@@ -37,4 +41,4 @@ help:
 	@echo "  profile - Run profiling script"
 	@echo "  help    - Display this help message"
 
-.PHONY: all install format lint test profile help
+.PHONY: all install format lint test profile cover help
