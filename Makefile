@@ -21,9 +21,6 @@ lint:
 # Run tests
 test:
 	coverage run -m unittest discover -s $(TEST_DIR)
-
-# Check the test coverage
-cover:
 	coverage report -m
 
 # Run profiling
@@ -41,4 +38,4 @@ help:
 	@echo "  profile - Run profiling script"
 	@echo "  help    - Display this help message"
 
-.PHONY: all install format lint test profile cover help
+.PHONY: all install format lint test profile help

@@ -34,4 +34,3 @@ jobs:
 
     - name: Run profiling
       run: make profile
-        
